@@ -1,9 +1,6 @@
 on:
-  # Trigger analysis when pushing in master or pull requests, and when creating
-  # a pull request. 
   push:
-    branches:
-      - test
+    branches: [test]
 
 name: SonarQube Scan
 jobs:
