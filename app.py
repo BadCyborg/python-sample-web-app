@@ -69,7 +69,7 @@ def get_secret():
     except Exception:
         logger.error('Failed to get secret', exc_info=True)
         raise Exception(
-            'Failed to get secret'
+            'Failed to get the secret'
         )
 
 def get_ip(web_request):
