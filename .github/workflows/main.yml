@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [test]
+    branches: [master]
 
 name: SonarQube Scan
 jobs:
