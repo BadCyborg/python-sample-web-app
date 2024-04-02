@@ -25,7 +25,7 @@ jobs:
         with:
           projectBaseDir: './' # Adjust this to your project's base directory.
           args: >
-            -Dsonar.projectKey=${{ runner.os }}-sonar
+            -Dsonar.projectKey=python-test
 
 
     
